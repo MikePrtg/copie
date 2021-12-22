@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+#connection
+{
+  background-color: black;
+  display: flex;
+  color: white;
+  height: 30px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#connection ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 450px;
+}
+#connection li
+{
+    margin-right: 25px;
+}
+#navigation
+{
+    background-image: url(img/bg-wool-dark.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+#navigation ul
+{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 6px;
+}
+#navigation li
+{
+    margin-right: 60px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    
+}
+#navigation li img
+{
+    padding-right: 20px;
+}
+#logo
+{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+#banniere_image
+{
+    color: white;
+    position: relative;
+}
+#fond
+{
+    position: absolute;
+    z-index: 1;
+    margin-left: 350px;
+}
+#banniere_image h1
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 450px;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 500px;
+}
+#banniere_image p
+{
+    position: absolute;
+    z-index: 2;
+    width: 520px;
+    font-size: 21px;
+    margin-top: 200px;
+    margin-left: 450px;
+    font-weight: 400;
+}
+#obtenir_minecraft
+{
+    position: absolute;
+    z-index: 2;
+    margin-top: 370px;
+    margin-left: 450px;
+}
